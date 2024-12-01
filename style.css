@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin":0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family:'Roboto', sans-serif;
+}
+
+
+:root {
+    --blue:#1e90ff;
+    --dark-bg-color:#1F2937;
+    --light-text-color:#F9fAF8;
+    /* display: flex; */
+    font:roboto;
+    padding:0px;
+
+}
+
+.test {
+    color:blue;
+    font-size:30px;
+}
+
+section{
+    min-height:100vh;
+    background-color:var(--dark-bg-color);
+    width:100%;
+    
+
+}
+
+.container{
+    /* width:100%; */
+    margin:auto;
+   
+    /* display:flex; */
+    /* min-height:80vh; */
+}
+
+nav{
+    height:80px;
+    /* width:100%; */
+     padding: 20px 10% 20px 10%;
+    display:flex;
+    align-items:center;
+
+}
+
+.headerlogo{
+    font-size:24px;
+    line-spacing:0px;
+    color:#F9fAF8;
+}
+nav h1{
+    /* float:left; */
+    margin-right:auto;
+    line-height:80px;
+    font-size:35px;
+    font-size:inline;
+    /* color:#eb7620; */
+}
+
+nav ul{
+    display:flex;
+    align-items: center;
+    /* margin-:; */
+    /* line-height:80px;/ */
+    flex-direction:inline;
+    color:#F9fAF8;
+    /* border:3px pink solid; */
+    list-style-type:none;
+    /* color:#eb7620; */
+    
+
+}
+
+.hero-section{
+    /* max-height:60vh; */
+}
+.headerlink {
+    color:#F9fAF8;
+    font-size:12px;
+    /* justify-content:space-between ; */
+    
+}
+
+.headerlinkli {
+    margin:5px;
+    /* justify-content:space-between ; */
+    
+}
+
+
+.article{
+    border:3px solid pink;
+    padding-left:10%;
+    padding-right:10%;
+    display:inline-flex;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+.articletext{
+    border:2px solid purple;
+    color : var(--light-text-color);
+    width:50%;
+}
+.articleimg{
+    border:2px solid white;
+    padding: 30px 10px 30px 10px;
+    flex-grow:1;
+    width:50%;
+    /* width:12px; */
+
+}
+
+#hero-main{
+    /* color:pink; */
+    font-size:48px;
+    weight:900px;
+    flex-grow:1;
+
+}
+
+.btn-signup {
+    background-color: #3882F6;
+    color:var(--light-text-color);
+    border-radius:10px;
+    font-size:18px;
+    font-weight:300px;
+    padding:8px 12px 8px 12px;
+    width:120px;
+    /* width:70px; */
+}
