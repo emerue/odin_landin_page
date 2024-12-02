@@ -158,7 +158,7 @@ background-color: white;
 /* justify-content:center; */
 /* display:flex; */
 /* border:3px solid pink; */
-
+/* flex-wrap:wrap; */
 
 }
 
@@ -179,7 +179,7 @@ background-color: white;
     display:flex;
     /* border:3px solid pink; */
     padding-bottom:65px;
-    flex-wrap:wrap;
+    
     
     
     }
@@ -195,14 +195,15 @@ background-color: white;
 }
 
 .info-section-item{
-    /* display:block; */
+    display:flex;
+    flex-direction:column;
     /* border:3px solid pink; */
 
 }
 
 
 .info-section-img{
-    height:170px;
+    min-height:170px;
     width:100%;
     border: 3px solid #3882f6;
     border-radius:13px;
@@ -223,11 +224,13 @@ background-color: white;
 .quote-section{
     background-color: #e5e7eb;
     display:flex;
+   
 }
 
 .quote-container{
     margin:70px;
-    /* display:flex; */
+    display:flex;
+    flex-direction: column;
     /* width:60%; */
     /* gap:30px; */
     /* justify-content: center; */
@@ -237,10 +240,16 @@ background-color: white;
     font-size:36px;
     font-style: italic;
     font-weight:300;
+    
 }
 
 
-.quote-author{
+#quote-author{
+    margin-top:20px;
+    font-weight:bold;
+     font-size: 23px;
+    align-self: flex-end;
+     font-style: normal;
 
 }
 
@@ -259,7 +268,7 @@ background-color: white;
     gap:30px;
     border-radius:7px;
 
-    /* justify-content: center; */
+    justify-content: space-around;
     margin:30px 15% 30px 15%;
     padding: 10px 40px 10px 40px;
     /* float:center; */
@@ -297,4 +306,32 @@ background-color: white;
 
 .copyright-text{
     /* margin:40px; */
+}
+
+.section4{
+    padding:95px 128px;
+
+}
+
+.call-to-action{
+    background-color: #3882F6;
+    border-radius: 10px;
+    color:var(--light-text-color);
+    display: flex;
+    padding: 53px;
+    justify-content: space-around;
+
+}
+
+.call-to-action-button{
+    background-color: #3882F6;
+    color:var(--light-text-color);
+    padding: 3px 30px 3px 30px;
+    
+    border-radius:7px;
+   
+    border: 2px solid var(--light-text-color);
+    /* padding:8px 12px 8px 12px; */
+    /* width:120px; */
+    /* width:70px; */
 }
